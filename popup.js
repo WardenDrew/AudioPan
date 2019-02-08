@@ -16,7 +16,7 @@ function currenttabcallback(callback)
 function setvalue()
 {
 	var newval = document.getElementById('AudioPanExtensionPanInput').value;
-	newval = (newval / 5);
+	newval = (newval / 4);
 	
 	currenttabcallback(function(tabid)
 	{
