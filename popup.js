@@ -55,7 +55,7 @@ port.onMessage.addListener(function(msg)
 		{
 			if (msg.type == "update_response")
 			{
-				var newval = (msg.value * 5)
+				var newval = (msg.value * 4)
 				document.getElementById('AudioPanExtensionPanInput').value = newval;
 			}
 		}
