@@ -1,6 +1,6 @@
 {
     "name": "Audio Pan",
-    "version": "1.1",
+    "version": "1.2",
     "short_name": "AudioPan",
     "description": "Allows stereo audio panning of a tab's audio. Works for as many tabs as you have memory for.",
 	"permissions": ["tabCapture", "activeTab", "tabs"],
